@@ -22,7 +22,6 @@ module.exports = {
       options: {
         navigation: [
           { name: `Projects`, slug: `/projects` },
-          { name: `Tools`, slug: `/tools` },
           { name: `About`, slug: `/about` },
         ],
       },
@@ -48,9 +47,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jodie - @lekoarts/gatsby-theme-jodie`,
-        short_name: `jodie`,
-        description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+        name: `portfolio`,
+        short_name: `portfolio`,
+        description: `ochio portfolio`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
@@ -80,5 +79,7 @@ module.exports = {
         openAnalyzer: false,
       },
     },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
   ].filter(Boolean),
 }
