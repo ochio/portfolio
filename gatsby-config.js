@@ -7,9 +7,10 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
-    siteTitle: `portfolio`,
+    siteTitle: `ochio`,
     siteTitleAlt: `portfolio`,
     siteHeadline: `portfolio`,
+    siteUrl: `https://ochio-portfolio.netlify.app/`,
     siteDescription: `portfolio`,
     siteLanguage: `ja`,
     siteImage: `/banner.jpg`,
@@ -21,8 +22,8 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
           { name: `About`, slug: `/about` },
+          { name: `Projects`, slug: `/projects` },
         ],
       },
     },
