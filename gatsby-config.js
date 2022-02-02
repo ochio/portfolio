@@ -10,7 +10,6 @@ module.exports = {
     siteTitle: `portfolio`,
     siteTitleAlt: `portfolio`,
     siteHeadline: `portfolio`,
-    siteUrl: `https://jodie.lekoarts.de`,
     siteDescription: `portfolio`,
     siteLanguage: `ja`,
     siteImage: `/banner.jpg`,
@@ -23,7 +22,7 @@ module.exports = {
       options: {
         navigation: [
           { name: `Projects`, slug: `/projects` },
-          { name: `Art`, slug: `/art` },
+          { name: `Tools`, slug: `/tools` },
           { name: `About`, slug: `/about` },
         ],
       },
